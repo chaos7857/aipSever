@@ -1,0 +1,32 @@
+{
+  "name": "apisever",
+  "version": "1.0.0",
+  "description": "my api sever",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaos7857/apiSever.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "achao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaos7857/apiSever/issues"
+  },
+  "homepage": "https://github.com/chaos7857/apiSever#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "axios": "^1.7.3",
+    "serialize": "^0.1.3"
+  }
+}
