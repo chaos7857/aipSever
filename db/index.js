@@ -14,6 +14,6 @@ db.on('release',(conn)=>{
     
 })
 db.on('acquire', function (conn) {
-    console.log('获取连接', conn.threadId);
+    console.log('acquire', conn.threadId);
 });
 module.exports = db
