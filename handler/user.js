@@ -76,6 +76,7 @@ exports.login = (req, res) => {
         if (!flag) {
             return res.sm('not this password')
         }
+        
         const user = {
             ...results[0],
             password: '',
